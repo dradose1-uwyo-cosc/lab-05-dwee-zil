@@ -121,7 +121,7 @@ for number in numbers:
         pos_count += 1
     elif number < 0:
         neg_count += 1
-    elif number == 0:
+    else:
         zero_count += 1
 
 print(f'There are {pos_count} positive numbers')
